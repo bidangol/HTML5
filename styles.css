@@ -9,3 +9,7 @@ mark.red {
 mark.lime {
   background-color: lime;
 }
+
+div.centertext {
+  text-align: center;
+}
