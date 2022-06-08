@@ -17,3 +17,6 @@ centertext {
 .spaceleftbook{
   display:inline-block;width:10;
 }
+table {
+  border-collapse: collapse;
+}
