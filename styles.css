@@ -20,3 +20,10 @@ centertext {
 table {
   border-collapse: collapse;
 }
+body {
+  background-image: url("");
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
