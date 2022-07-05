@@ -68,3 +68,33 @@ h2 {
   margin: 5px;
   background-color: aquamarine;
 }
+.blue {
+  height: 175px;
+  width: 300px;
+  background-color: #005999;
+  border-radius: 40%/20%;
+  position: relative;
+  margin-left: 100px;
+}
+
+.white {
+  position: absolute;
+  height: 75px;
+  width: 100px;
+  background-color: white;
+  left: -50px;
+  top: 50px;
+  border-radius: 40%/25%;
+  box-shadow: -5px 0px 10px -2px #aaaaaa;
+}
+
+.backwards {
+  display: inline;
+  font-size: 100px;
+  font-style: bold;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
