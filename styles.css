@@ -1,25 +1,26 @@
+ 
 .imageTable {
   background-color: hsla(128, 100%, 50%, 0.144);
   
 }
-
+ 
 .imageCol {
   background-color: hsla(128, 100%, 50%, 0.144);
   
 }
-
+ 
 mark.red {
   background-color: red;
 }
-
+ 
 mark.lime {
   background-color: lime;
 }
-
+ 
 centertext {
   text-align: center;
 }
-
+ 
 .spaceleftbook{
   display:inline-block;width:10;
 }
@@ -31,30 +32,30 @@ body {
   background-image: url("");
 }
   /* body {
-    background-image: url("https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/RedDeathPng.png");*/
-    /* background-size: cover;
+    background-image: url("https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/RedDeathPng.png");
+    background-size: cover;
     background-color: #900C20;
     background-repeat: repeat-x;
     background-attachment: fixed;
-    background-position: 0px 0px; */
-    /*background-image: url("https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/RedDeathPng.png");
+    background-position: 0px 0px; 
+    background-image: url("https://stackblitz.com/files/html5andcss3/github/bidangol/HTML5/master/image/RedDeathPng.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
 } */
-
+ 
 table {
   color:blue
 }
-
+ 
 p {
   font-size: 14px;
   color: white;
   text-align: center;
   margin: 4px;
 }
-
+ 
 h2 {
   font-size: 18px;
   font-weight: 700;
@@ -79,7 +80,7 @@ h2 {
   position: relative;
   margin-left: 100px;
 }
-
+ 
 .white {
   position: absolute;
   height: 75px;
@@ -90,7 +91,7 @@ h2 {
   border-radius: 40%/25%;
   box-shadow: -5px 0px 10px -2px #aaaaaa;
 }
-
+ 
 .backwards {
   display: inline;
   font-size: 100px;
