@@ -109,12 +109,14 @@ h2 {
 li {
   padding-bottom: 0.4rem;
 }
-span {
+u {
   color: #559be6;
+  text-decoration: none;
 }
 
-span:hover {
+u:hover {
   filter: drop-shadow(0 0 5px #ffffff);
   transition: 1s;
   color: red;
+  text-decoration: none;
 }
