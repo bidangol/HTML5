@@ -120,3 +120,12 @@ u:hover {
   color: red;
   text-decoration: none;
 }
+
+a {
+  color: lightsteelblue;
+}
+
+a:hover {
+  color: red;
+  filter: drop-shadow(0 0 5px #ffffff);
+}
