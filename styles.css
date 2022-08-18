@@ -129,3 +129,22 @@ a:hover {
   color: red;
   filter: drop-shadow(0 0 5px #ffffff);
 }
+
+i {
+  font-style: normal;
+  color: white;
+}
+
+i:hover {
+  font-style: normal;
+  color: #559be6;
+  filter: drop-shadow(0 0 5px #ffffff);
+}
+
+.gray {
+  color: gray;
+}
+
+span.gray:hover {
+  color: #559be6;
+}
