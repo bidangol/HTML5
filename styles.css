@@ -128,6 +128,7 @@ a {
 a:hover {
   color: red;
   filter: drop-shadow(0 0 5px #ffffff);
+  transition: 1s;;
 }
 
 i {
