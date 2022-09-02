@@ -51,11 +51,17 @@ body {
 table {
   color: #559be6;
   background-color: purple;
-  border: 1px solid red;
+  border: 1px solid darkred;
+}
+
+th {
+  border: 1px solid white;
+  border-bottom: darkred;
+  border-top: darkred;
 }
 
 td {
-  border: 1px solid red;
+  border: 1px solid darkred;
 }
  
 p {
