@@ -32,9 +32,12 @@ const questions = [
 ];
 let questionNumber = 0;
 const display = document.getElementById("display");
+function createQuestion(number) {
+  const para = document.createElement("p");
+  const node = document.createTextNode(questions[0].question);
+  para.appendChild(node);
+  return para;
+}
 
-const para = document.createElement("p");
-const node = document.createTextNode(questions[0].question);
-para.appendChild(node);
 
-display.appendChild(para);
+display.appendChild(createQuestion(0));
