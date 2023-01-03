@@ -49,7 +49,7 @@ const DOTDRRTTE = document.getElementById("DOTDRRTTE");
 DOTDRRTTE.appendChild(createQuestion(1));
  
 ;
-const second = document.getElementById("DOTDRRTTE");
+const second = document.getElementById("second");
  
  
 second.appendChild(createQuestion(2));
