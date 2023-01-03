@@ -41,15 +41,22 @@ function createQuestion(number) {
  
  
 ROBDOM.appendChild(createQuestion(0));
- 
-;
 const DOTDRRTTE = document.getElementById("DOTDRRTTE");
  
  
 DOTDRRTTE.appendChild(createQuestion(1));
- 
-;
 const second = document.getElementById("second");
  
  
 second.appendChild(createQuestion(2));
+
+
+const third = document.getElementById("third");
+ 
+ 
+third.appendChild(createQuestion(3));
+
+const homecoming = document.getElementById("homecoming");
+ 
+ 
+homecoming.appendChild(createQuestion(4));
