@@ -31,13 +31,25 @@ const questions = [
   }
 ];
 let questionNumber = 0;
-const display = document.getElementById("display");
+const ROBDOM = document.getElementById("ROBDOM");
 function createQuestion(number) {
   const para = document.createElement("p");
-  const node = document.createTextNode(questions[0].question);
+  const node = document.createTextNode(questions[number].question);
   para.appendChild(node);
   return para;
 }
-
-
-display.appendChild(createQuestion(0));
+ 
+ 
+ROBDOM.appendChild(createQuestion(0));
+ 
+;
+const DOTDRRTTE = document.getElementById("DOTDRRTTE");
+ 
+ 
+DOTDRRTTE.appendChild(createQuestion(1));
+ 
+;
+const second = document.getElementById("DOTDRRTTE");
+ 
+ 
+second.appendChild(createQuestion(2));
