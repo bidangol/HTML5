@@ -26,7 +26,7 @@ function myFunction() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
+    btnText.innerHTML = "See less"; 
     moreText.style.display = "inline";
   }
 }
