@@ -28,7 +28,13 @@ const questions = [
     question: "How old is Hiccup in the third film epilogue, Homecoming?",
     options: ['15', '18-20', '20', '21', '30'],
     correctAnswer: 4
-  }
+  },
+  {
+    id: 5,
+    question: "Is Hiccup main protagonist or antagonist??",
+    options: ['Main protagonist','Main antagonist'],
+    correctAnswer: 0
+  },
 ];
 let questionNumber = 0;
 const ROBDOM = document.getElementById("ROBDOM");
@@ -61,4 +67,7 @@ const homecoming = document.getElementById("homecoming");
  
 homecoming.appendChild(createQuestion(4));
 
-
+const homecoming = document.getElementById("protagonist");
+ 
+ 
+homecoming.appendChild(createQuestion(4));
