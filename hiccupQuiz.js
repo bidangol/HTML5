@@ -65,9 +65,9 @@ third.appendChild(createQuestion(3));
 const homecoming = document.getElementById("homecoming");
  
  
-homecoming.appendChild(createQuestion(4));
+protagonist.appendChild(createQuestion(4));
 
-const homecoming = document.getElementById("protagonist");
+const protagonist = document.getElementById("protagonist");
  
  
-homecoming.appendChild(createQuestion(4));
+protagonist.appendChild(createQuestion(4));
