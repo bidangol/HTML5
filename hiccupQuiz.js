@@ -30,7 +30,7 @@ const questions = [
     correctAnswer: 4
   },
   {
-    id: 5,
+    id: 6,
     question: "Is Hiccup main protagonist or antagonist??",
     options: ['Main protagonist','Main antagonist'],
     correctAnswer: 0
@@ -44,30 +44,20 @@ function createQuestion(number) {
   para.appendChild(node);
   return para;
 }
- 
- 
-ROBDOM.appendChild(createQuestion(0));
+ ROBDOM.appendChild(createQuestion(0));
+
 const DOTDRRTTE = document.getElementById("DOTDRRTTE");
- 
- 
-DOTDRRTTE.appendChild(createQuestion(1));
+ DOTDRRTTE.appendChild(createQuestion(1));
+
 const second = document.getElementById("second");
- 
- 
-second.appendChild(createQuestion(2));
+ second.appendChild(createQuestion(2));
 
 
 const third = document.getElementById("third");
- 
- 
-third.appendChild(createQuestion(3));
+ third.appendChild(createQuestion(3));
 
 const homecoming = document.getElementById("homecoming");
- 
- 
-protagonist.appendChild(createQuestion(4));
+ homecoming.appendChild(createQuestion(4));
 
 const protagonist = document.getElementById("protagonist");
- 
- 
-protagonist.appendChild(createQuestion(4));
+ protagonist.appendChild(createQuestion(5));
