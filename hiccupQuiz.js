@@ -76,7 +76,6 @@ const DOTDRRTTE = document.getElementById("DOTDRRTTE");
 const second = document.getElementById("second");
  second.appendChild(createQuestion(2));
 
-
 const third = document.getElementById("third");
  third.appendChild(createQuestion(3));
 
@@ -86,11 +85,11 @@ const homecoming = document.getElementById("homecoming");
 const protagonist = document.getElementById("protagonist");
  protagonist.appendChild(createQuestion(5));
 
- const earlycheif = document.getElementById("earlychief");
+ const earlycheif = document.getElementById("earlycheif");
  earlycheif.appendChild(createQuestion(6));
 
  const thor = document.getElementById("thor");
  thor.appendChild(createQuestion(7));
 
- const protagonist = document.getElementById("protagonist");
- protagonist.appendChild(createQuestion(5));
+ const toothlessesage = document.getElementById("toothlessesage");
+ toothlessesage.appendChild(createQuestion(8));
