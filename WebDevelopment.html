@@ -10,6 +10,12 @@
           margin: 35px;
         }
         </style>
+        <script>
+            function goto(place) {
+  const element = document.getElementById(place);
+  element.scrollIntoView();
+}
+        </script>
 <title>Ninth Edition Web Development & Design Foundations With HTML5</title>
 <link rel="icon" type="image/x-icon" href="https://image/ninth_edition_web_development_&_design_foundations_with_html5">
 <meta charset="utf-8">
@@ -17,6 +23,9 @@
 <body style="background-color: forestgreen">
 
     <img src="image/ninth_edition_web_development_&_design_foundations_with_html5">
+
+    <div><button onclick="goto('trilliumMediaDesign')">Trillium Media Design</button></div>
+    <div><button onclick="goto('breakfast')">Breakfast</button></div>
 
     <span style="margin-left: 1em;">
 <h1 style="color: white;"><code>Heading Level 1</code></h1>
@@ -141,7 +150,7 @@ Layout to be consistent, with easy navigation.</li>
 </div>
 
 
-<hr>
+<hr id="trilliumMediaDesign">
 <header>
     <h1> Trillium Media Design</h1>
 </header>
@@ -176,7 +185,7 @@ website that helps to promote and grow your business.</p>
     footer
 </div>
 
-<header>
+<header id="breakfast">
     <h1>
         Casita Sedona Bed &amp; 
         Breakfast
