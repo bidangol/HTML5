@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .div1 {
+            float: right;
+            border-radius: 15px;
+            box-shadow: 15px 8px 5px lightblue;
+        }
+
+        div {
+
+            width: 70px;
+            border: 0px solid black;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 2px;
+        }
+
+        a {
+            color: black;
+            text-decoration: underline;
+            /* background: blue; */
+        }
+
+        a:hover {
+            color: red;
+            filter: drop-shadow(0 0 5px #ffffff);
+            transition: 1s;
+            ;
+        }
+    </style>
+    <script>
+        function goto(place) {
+            const element = document.getElementById(place);
+            element.scrollIntoView();
+        }
+    </script>
+    <title>HTML & CSS design and build</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/bidangol/HTML5/blob/master/image/Html&CssDesignAndBuildWebsites.jpg?raw=true">
+    <meta charset="utf-8">
+</head>
+<body style="background-color: #def9fa;">
+
+    <a href="../index.html">Home</a><br>
+    <a href="Space.html">Back</a><br><br><br><br><br><br><br><br><br>
+
+    <!--Hydrogen-->
+    <div style="background-color: blue;">
+        1 &nbsp;1.00784<br>
+        <b> H</b><br>
+        <span>Hydrogen</span>
+    </div>
+    <table style="table-layout: fixed;">
+        <tr>
+            <td style="background-color: blue; width: 100px; height: 100px;">
+                1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.00784<br>
+                <b>H</b>
+            </td>
+            <td style="background-color: red; width: 100px; height: 100px;">
+                2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.002602<br>
+                <b>He</b>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: blue;">
+                1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.00784<br>
+                <b>H</b>
+            </td>
+            <td style="background-color: red;">
+                2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.002602<br>
+                <b>He</b>
+            </td>
+            
+        </tr>
+    </table>
+
+    <!--Helium-->
+    <div style="background-color: red;">
+        2&nbsp;4.002602<br>
+        <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H</b><br>
+        <span>Hydrogen</span>
+    </div>
+
+</body>
+</html>
