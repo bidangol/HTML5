@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+    <h2>These are some questions about you</h2>
+
+    What vehicle's do you own/have?
+    <form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bicycle</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br>
+    <input type="checkbox" id="vehicle4" name="vehicle4" value="MC">
+    <label for="vehicle4"> I have a motorcycle</label><br>`
+    <input type="checkbox" id="vehicle5" name="vehicle5" value="Other">
+    <label for="vehicle5"> I have something else</label><br><br>
+
+    <label for="sdistrict">What school district do you go to?</label>
+    <select id="sdistrict" name="sdistrict">
+        <option value="BSD">Brandywine School District</option>
+        <option value="ChSD">Christina School District</option>
+        <option value="CoSD">Colonial School District</option>
+        <option value="RCCSD">Red Clay Consolidated School District/</option>
+    </select>
+    <br><br>
+
+    <label for="colors">What is/are your favorite color(s)?</label>
+    <select id="colors" name="color" size="9" multiple>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Pink">Pink</option>        
+        <option value="Yellow">Yellow</option>
+        <option value="Purple">Purple</option>
+        <option value="Brown">Brown</option>
+        <option value="White">White</option>
+        <option value="Other">Other</option>
+    </select>
+    <input type="submit">
+    </form><br>
+
+    What is your name?
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Name:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="First name here"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Last name here"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+    </body>
+</html>
